@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="atlasEcho">#0B3D91</color>
+    <color name="atlasApollo">#FC3D21</color>
+    <color name="atlasLight">#009fb7</color>
+    <color name="atlastMed">#083d77</color>
+    <color name="atlasDark">#011638</color>
+    <color name="atlasClean">#fdfffc</color>
+    <color name="atlasEngineering">#b80c09</color>
+    <color name="invisible">#00000000</color>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:contentDescription="@string/logotext"
+        android:foregroundTint="@color/atlasDark"
+        android:maxHeight="350dp"
+        android:minHeight="250dp"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:src="@drawable/altasmapsmainimage" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_margin="8dp"
+        android:background="@color/atlasDark"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+
+    <TextView
+        android:id="@+id/registerHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/become_an_explorer"
+        android:textAlignment="center"
+        android:textColorHint="@color/atlasEcho"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="26dp"
+        app:autoSizeMinTextSize="14dp" />
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:autofillHints=""
+        android:background="@drawable/box_styling"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/atlasDark"
+        android:textColorHint="@color/atlasEcho" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/box_styling"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/atlasDark"
+        android:textColorHint="@color/atlasEcho" />
+
+    <Button
+        android:id="@+id/registerAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_inactive"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/i_am_ready"
+        android:textAlignment="center"
+        android:textColor="@color/atlasClean" />
+
+
+
+
+</LinearLayout>

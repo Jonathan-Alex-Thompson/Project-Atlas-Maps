@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HistroyActivity">
+
+    <TextView
+        android:id="@+id/historyHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="Your Exploration History:"
+        android:textAlignment="center"
+        android:textColorHint="@color/atlasEcho"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="26dp"
+        app:autoSizeMinTextSize="14dp" />
+
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+
+        android:background="@color/atlasDark"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+
+
+    <TextView
+        android:id="@+id/trip_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/box_styling"
+        android:padding="8dp"
+        android:textColor="@color/atlasApollo"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/returnAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_inactive"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="50dp"
+        android:text="RETURN TO MAP"
+        android:textAlignment="center"
+        android:textColor="@color/atlasClean" />
+
+</LinearLayout>

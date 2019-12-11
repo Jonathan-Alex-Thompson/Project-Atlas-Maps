@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Project Atlas Maps</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logotext">Atlas Maps Logo</string>
+    <string name="startlogintext">NEW EXPLORER</string>
+    <string name="startregistertext">RETURNING EXPLORER</string>
+    <string name="need_help_watch_our_guide">Need help? Watch our guide</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="title_activity_dash_board">Map</string>
+    <string name="title_activity_dashboard">Map</string>
+    <string name="become_an_explorer">BECOME AN EXPLORER</string>
+    <string name="i_am_ready">I AM READY</string>
+    <string name="welcome_back_explorer">WELCOME BACK EXPLORER</string>
+    <string name="lets_go">LETS GO</string>
+    <string name="map_key">AIzaSyATuPpOtSm7rzJMMHXAfjk6-nNlSe0872s</string>
+</resources>

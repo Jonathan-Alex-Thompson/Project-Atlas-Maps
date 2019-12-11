@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "885003304237",
+    "firebase_url": "https://atlasmaps.firebaseio.com",
+    "project_id": "atlasmaps",
+    "storage_bucket": "atlasmaps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885003304237:android:dffbf63b770d159485a7a4",
+        "android_client_info": {
+          "package_name": "com.jayalexthompson.projectatlasmaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885003304237-8vi8smpkn04cq0ngrgmpihknsj408rcr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jayalexthompson.projectatlasmaps",
+            "certificate_hash": "1bd02b4f91d9258c68d61cf6574df8231ae1c57e"
+          }
+        },
+        {
+          "client_id": "885003304237-i2llr0dahebpfpg5dd1fpd046dn8fti5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4u5eoKFfYlNOFQHT3Wu4ThSSGOGwsYgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885003304237-i2llr0dahebpfpg5dd1fpd046dn8fti5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

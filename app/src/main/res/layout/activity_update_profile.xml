@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateProfileActivity">
+
+    <TextView
+        android:id="@+id/profileHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="Update Your Explorer Profile:"
+        android:textAlignment="center"
+        android:textColorHint="@color/atlasEcho"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="26dp"
+        app:autoSizeMinTextSize="14dp" />
+
+    <EditText
+        android:id="@+id/newUserNameIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/box_styling"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/atlasDark"
+        android:textColorHint="@color/atlasEcho"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/SwtichTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Measurement Style:"
+        android:textAlignment="center"
+        android:textColor="@color/atlasDark"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        />
+
+
+    <ToggleButton
+        android:id="@+id/metricStyleIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_inactive"
+        android:padding="8dp"
+        android:text="No Style Selected"
+        android:textColor="@color/atlasClean"
+        android:textOff="Metric"
+        android:textOn="Imperial" />
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+
+        android:background="@color/atlasDark"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+
+    <TextView
+        android:id="@+id/TransportTitleIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Transport Mode:"
+        android:textAlignment="center"
+        android:textColor="@color/atlasDark"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        />
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+
+        android:background="@color/atlasDark"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        />
+
+    <ImageButton
+        android:id="@+id/carSelect"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_active"
+        app:srcCompat="@drawable/car"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_margin="8dp"/>
+
+    <ImageButton
+        android:id="@+id/busSelect"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_active"
+        app:srcCompat="@drawable/bus"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_margin="8dp"/>
+
+    <ImageButton
+        android:id="@+id/walkingSelect"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_active"
+        app:srcCompat="@drawable/trekking"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_margin="8dp"/>
+
+    <ImageButton
+        android:id="@+id/cyclingSelect"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_active"
+        app:srcCompat="@drawable/bike"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_margin="8dp"/>
+
+
+    <Button
+        android:id="@+id/saveAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_inactive"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="Save My Profile"
+        android:textAlignment="center"
+        android:textColor="@color/atlasClean" />
+
+    <Button
+        android:id="@+id/returnAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_inactive"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="RETURN TO MAP"
+        android:textAlignment="center"
+        android:textColor="@color/atlasClean" />
+
+</LinearLayout>

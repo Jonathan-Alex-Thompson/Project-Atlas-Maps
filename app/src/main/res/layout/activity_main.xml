@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:contentDescription="@string/logotext"
+        android:foregroundTint="@color/atlasDark"
+        android:src="@drawable/altasmapsmainimage" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_margin="8dp"
+        android:background="@color/atlasDark"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+
+    <Button
+        android:id="@+id/registerGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_inactive"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/startlogintext"
+        android:textAlignment="center"
+        android:textColor="@color/atlasClean" />
+
+    <Button
+        android:id="@+id/loginGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_inactive"
+        android:padding="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/startregistertext"
+        android:textAlignment="center"
+        android:textColor="@color/atlasClean" />
+
+
+    <TextView
+        android:id="@+id/helplink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:autoLink="web"
+        android:gravity="bottom|center_vertical"
+        android:linksClickable="true"
+        android:text="@string/need_help_watch_our_guide"
+        android:textAlignment="center"
+        android:textColor="@color/atlasDark" />
+
+</LinearLayout>

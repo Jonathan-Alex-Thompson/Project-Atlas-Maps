@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity"
+    android:backgroundTint="@color/atlasDark">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/logOutAction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_inactive"
+                android:backgroundTint="@color/atlasEngineering"
+                android:gravity="center|center_horizontal"
+                android:padding="8dp"
+                android:text="LOGOUT"
+                android:textColor="@color/atlasClean" />
+
+            <Button
+                android:id="@+id/viewHistroyAction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_inactive"
+                android:backgroundTint="@color/atlastMed"
+                android:gravity="center|center_horizontal"
+                android:padding="8dp"
+                android:text="VIEW TRIPS"
+                android:textColor="@color/atlasClean" />
+
+            <Button
+                android:id="@+id/updateProfileAction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/button_inactive"
+                android:backgroundTint="@color/atlastMed"
+                android:gravity="center|center_horizontal"
+                android:padding="8dp"
+                android:text="PROFILE"
+                android:textColor="@color/atlasClean" />
+        </TableRow>
+    </TableLayout>
+
+
+
+
+    <fragment
+        android:id="@+id/findPlaces"
+        android:layout_margin="8dp"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:backgroundTint="@color/atlasDark"/>
+
+
+
+
+    <Button
+        android:id="@+id/routeDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_inactive"
+        android:backgroundTint="@color/atlasDark"
+        android:padding="8dp"
+        android:text="Show Me The Way"
+        android:textColor="@color/atlasClean"
+        android:gravity="center|center_horizontal"/>
+
+    <Button
+        android:id="@+id/saveRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_inactive"
+        android:backgroundTint="@color/atlasDark"
+        android:padding="8dp"
+        android:text="Save This Route"
+        android:textColor="@color/atlasClean"
+        android:gravity="center|center_horizontal"/>
+
+    <TextView
+        android:id="@+id/routeInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/atlasDark"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/atlasClean" />
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".DashboardActivity" />
+
+
+
+</LinearLayout>
